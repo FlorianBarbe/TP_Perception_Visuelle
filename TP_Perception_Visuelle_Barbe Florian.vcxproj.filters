@@ -14,39 +14,39 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="python">
-      <UniqueIdentifier>{f133df42-84fb-44d2-9912-ffa5b392971b}</UniqueIdentifier>
+      <UniqueIdentifier>{88473903-fefe-4fd6-bfb0-11c618ab3cfa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\main_etudiant_trous\main_etudiant.cpp">
+    <ClCompile Include="src\anaglyph.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\anaglyph\anaglyph.cpp">
+    <ClCompile Include="src\main_etudiant.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\main_etudiant_trous\main_etudiant.h">
+    <ClInclude Include="include\anaglyph.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\anaglyph\anaglyph.h">
+    <ClInclude Include="include\main_etudiant.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\python\courbes_fov.py">
+    <None Include="..\python\courbes_fov.py">
       <Filter>python</Filter>
     </None>
-    <None Include="..\..\python\disparité.py">
+    <None Include="..\python\disparité.py">
       <Filter>python</Filter>
     </None>
-    <None Include="..\..\python\heatmap.py">
+    <None Include="..\python\heatmap.py">
       <Filter>python</Filter>
     </None>
-    <None Include="..\..\python\zonefusion.py">
+    <None Include="..\python\zonefusion.py">
       <Filter>python</Filter>
     </None>
-    <None Include="..\..\TP_Perception_Visuelle_Barbe_Florian.pdf" />
-    <None Include="..\..\Consignes.pdf" />
+    <None Include="..\Consignes.pdf" />
+    <None Include="..\TP_Perception_Visuelle_Barbe_Florian.pdf" />
   </ItemGroup>
 </Project>

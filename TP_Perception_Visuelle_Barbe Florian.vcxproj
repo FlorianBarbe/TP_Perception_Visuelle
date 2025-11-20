@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\flole\Desktop\Perception visuelle\freeglut\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\flole\Desktop\Perception visuelle\freeglut\include;$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,20 +130,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\anaglyph\anaglyph.cpp" />
-    <ClCompile Include="..\..\main_etudiant_trous\main_etudiant.cpp" />
+    <ClCompile Include="src\anaglyph.cpp" />
+    <ClCompile Include="src\main_etudiant.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\anaglyph\anaglyph.h" />
-    <ClInclude Include="..\..\main_etudiant_trous\main_etudiant.h" />
+    <ClInclude Include="include\anaglyph.h" />
+    <ClInclude Include="include\main_etudiant.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\python\courbes_fov.py" />
-    <None Include="..\..\python\disparité.py" />
-    <None Include="..\..\python\heatmap.py" />
-    <None Include="..\..\python\zonefusion.py" />
-    <None Include="..\..\Consignes.pdf" />
-    <None Include="..\..\TP_Perception_Visuelle_Barbe_Florian.pdf" />
+    <None Include="..\Consignes.pdf" />
+    <None Include="..\python\courbes_fov.py" />
+    <None Include="..\python\disparité.py" />
+    <None Include="..\python\heatmap.py" />
+    <None Include="..\python\zonefusion.py" />
+    <None Include="..\TP_Perception_Visuelle_Barbe_Florian.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
